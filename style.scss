@@ -1,0 +1,65 @@
+/* No CSS *//*# sourceMappingURL=style.css.map */    // --blue: #007bff;
+    // --indigo: #0d0cb5;
+    // --purple: #7971ea;
+    // --pink: #e83e8c;
+    // --red: #f23a2e;
+    // --orange: #ef6c57;
+    // --yellow: #f89d13;
+    // --green: #8bc34a;
+    // --teal: #20c997;
+    // --cyan: #51eaea;
+    // --white: #fff;
+    // --gray: #6c757d;
+    // --gray-dark: #343a40;
+    // --primary: #fd5f00;
+    // --secondary: #6c757d;
+    // --success: #8bc34a;
+    // --info: #51eaea;
+    // --warning: #f89d13;
+    // --danger: #f23a2e;
+    // --light: #f8f9fa;
+    // --dark: #343a40;
+    @mixin container-large {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    
+    @mixin container-medium {
+        max-width: 1000px;
+    }
+    
+    @mixin container-small {
+        max-width: 800px;
+    }
+    
+    @mixin container-smallest {
+        max-width: 600px;
+    }
+    
+    @mixin large-p {
+        font-size: xx-large;
+        font-weight: 800;
+    }
+    
+    @mixin medium-p {
+        line-height: 1.7;
+        font-weight: 400;
+        font-size: 1rem;
+    }
+    
+    @mixin images {
+        object-fit: fill;
+        width: 100%;
+    }
+    
+    @mixin flex-row {
+        display: flex;
+        flex-direction: row;
+        // flex-wrap: wrap;
+    }
+    
+    @mixin flex-column {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
