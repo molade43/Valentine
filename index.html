@@ -1,23 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <script src="/main.js"></script>
+    <link
+      href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <div class="site-wrap">
-        <header>
-            <div>
-                
-            </div>
-        </header>
+      <header>
+        <a href="#" class="logo">Portfolio</a>
+        <div class="toggle" onclick="toggleMenu()"></div>
+        <ul class="menu">
+          <li><a href="#home" onclick="toggleMenu()">Home</a></li>
+          <li><a href="#about" onclick="toggleMenu()">How We Met</a></li>
+          <li><a href="#service" onclick="toggleMenu()">Gallery</a></li>
+          <li>
+            <a href="#testimonial" onclick="toggleMenu()">Testimonials</a>
+          </li>
+        </ul>
+      </header>
 
-        <section>
-            
-        </section>
+      <!-- Banner Layout -->
+      <section class="banner" id="home">
+        <div class="textbx">
+          <h2>
+            Happy Valentine <br />
+            <span>Joey <i class="fa fa-heart">Joey</i></span>
+          </h2>
+          <h3><i class="fa fa-heart"></i></h3>
+          <h3>
+            Love is a condition in which the <br />
+            happiness of another person is <br />
+            essential to your own
+          </h3>
+          <a href="#about" class="btn">About Us</a>
+        </div>
+      </section>
+
+      <!-- How we Met layout in HTML -->
+
+      <section class="intro" id="how_we_met">
+        <div class="content">
+          <div class="contentBx ">
+            <h3>How We Met</h3>
+            <p>
+              I met Oluwatomilola where i went work and it was on a sunday,
+              because i remember i skipped church to attend her own church to
+              train the media department on how to use the service i provided
+              for them
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="chat">
+       <div class="content">
+          <div class="started_vs_going_conversation">
+            <div class="started_vs_going">
+              <h3>How it started</h3>
+              <div class="w50">
+                <img src="/images/tomilade1.jpg" alt="">
+              </div>
+            </div>
+            <div class="versus">
+              <h2>VS</h2>
+            </div>
+            <div class="started_vs_going">
+              <h3>How it Going</h3>
+              <div>
+                <img src="/images/tomilade1.jpg" alt="" class="w50" width="100%">
+              </div>
+            </div>
+        </div>
+       </div>
+      </section>
+
+      <section class="gallery">
+        <div class="heading white">
+          <h2>Gallery</h2>
+      </div>
+        <div class="content galleryBx">
+          <div class="galleryImage">
+            <img src="./images/tomilade2.jpg" alt="">
+          </div>
+          <div class="galleryImage">
+            <img src="./images/tomilade2.jpg" alt="">
+          </div>
+          <div class="galleryImage">
+            <img src="./images/tomilade2.jpg" alt="">
+          </div>
+          <div class="galleryImage">
+            <img src="./images/tomilade2.jpg" alt="">
+          </div>
+      </div>
+      </section>
     </div>
-</body>
+  </body>
 </html>
