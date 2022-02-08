@@ -288,10 +288,21 @@
       .heart {
         padding-top: 100px;
       }
-      .bannerBx {
-        display: flex;
-        flex-direction: row;
-        border: 1px solid;
+      .textBx {
+        h2 {
+          color: #fff;
+          font-size: 24px;
+          font-family: cursive;
+        }
+        span {
+          color: #fff;
+          font-style: italic;
+        }
+        h3 {
+          color: #fff;
+          font-size: 30px;
+          font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        }
       }
     }
 
@@ -319,25 +330,34 @@
       margin: 8% auto;
 
       .started_vs_going_conversation {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(300px, 0, 2fr));
-        grid-gap: 1rem;
+        display: flex;
+        flex-direction: row;
         justify-content: center;
-        padding: 10px;
+        align-items: center;
         .started_vs_going {
+          display: flex;
+          flex-direction: column;
+          width: 100%;
           h3 {
             @include hThree;
             padding: 10% 0;
           }
-          .w50 {
-            width: 100%;
+          .w50Bx {
+            border: 1px solid;
+            display: flex;
+            flex-direction: column;
+            padding: 10px;
 
-            img {
-              @include images;
+            .w50 {
+              border: 1px solid;
+              img {
+                @include images;
+              }
             }
           }
         }
         .versus {
+          width: 50px;
           text-align: center;
         }
       }
@@ -453,7 +473,6 @@
         padding: 2%;
       }
       .tomorrowBx {
-        // border: 1px solid;
         @include container-large;
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -517,7 +536,6 @@
     }
 
     footer {
-      // border: 1px solid;
       @include container-large;
       padding: 50px;
       text-align: center;
@@ -672,6 +690,14 @@
     .banner {
       .heart {
         padding-top: 8px;
+      }
+    }
+
+    // how its going conversation
+
+    .chat {
+      .started_vs_going_conversation {
+        flex-direction: column;
       }
     }
   }
