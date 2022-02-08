@@ -222,7 +222,6 @@
 }
 
 * .site-wrap {
-  border: 1px solid red;
   background: #fefefe;
 }
 
@@ -292,7 +291,7 @@
 
 * .site-wrap .banner {
   height: 100vh;
-  background: chocolate;
+  background: #73b2ff;
   text-align: center;
 }
 
@@ -392,7 +391,6 @@
 }
 
 * .site-wrap .chat .started_vs_going_conversation .started_vs_going .w50Bx {
-  border: 1px solid;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -404,7 +402,7 @@
 }
 
 * .site-wrap .chat .started_vs_going_conversation .started_vs_going .w50Bx .w50 {
-  border: 1px solid;
+  padding: 20px;
 }
 
 * .site-wrap .chat .started_vs_going_conversation .started_vs_going .w50Bx .w50 img {

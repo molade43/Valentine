@@ -225,7 +225,6 @@
   /* NAVIGATION */
 
   .site-wrap {
-    border: 1px solid red;
     background: #fefefe;
 
     .navbar {
@@ -282,7 +281,7 @@
 
     .banner {
       height: 100vh;
-      background: chocolate;
+      background: #73b2ff;
       text-align: center;
 
       .heart {
@@ -343,13 +342,12 @@
             padding: 10% 0;
           }
           .w50Bx {
-            border: 1px solid;
             display: flex;
             flex-direction: column;
             padding: 10px;
 
             .w50 {
-              border: 1px solid;
+              padding: 20px;
               img {
                 @include images;
               }
