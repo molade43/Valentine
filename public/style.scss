@@ -90,6 +90,8 @@
   font-weight: 400;
   font-size: 1rem;
   color: #000;
+  scroll-behavior: smooth;
+
   .heartbeat {
     height: 20vh;
     display: flex;
@@ -249,6 +251,7 @@
         grid-template-columns: repeat(4, 1fr);
         justify-self: end;
         text-align: center;
+        transition: 0.5s;
 
         a {
           color: #000;
@@ -307,6 +310,7 @@
     .intro {
       @include container-smallest;
       margin: 13% auto;
+      transition: 0.5s;
       .introBx {
         text-align: center;
         margin-bottom: 30px;
@@ -326,6 +330,7 @@
     .chat {
       @include container-large;
       margin: 8% auto;
+      transition: 0.5s;
 
       .started_vs_going_conversation {
         display: flex;
@@ -365,6 +370,7 @@
       margin: 8% auto;
       text-align: center;
       color: #111;
+      transition: 0.5s;
 
       h3 {
         @include hThree;
@@ -382,6 +388,7 @@
     .gallery {
       @include container-large;
       margin: 8% auto;
+      transition: 0.5s;
       h3 {
         @include hThree;
         padding: 2%;
@@ -406,6 +413,7 @@
       margin: 8% auto;
       @include container-large;
       background: #fefefe;
+      transition: 0.5s;
       h3 {
         @include hThree;
         padding: 2%;
@@ -465,6 +473,7 @@
       background: #faf1f2;
       text-align: center;
       padding: 5% 0;
+      transition: 0.5s;
       h3 {
         @include hThree;
         padding: 2%;
@@ -516,6 +525,7 @@
       @include container-medium;
       margin: 0 auto;
       padding: 10px;
+      transition: 0.5s;
       .friendThoughtBx {
         display: flex;
         flex-wrap: wrap;

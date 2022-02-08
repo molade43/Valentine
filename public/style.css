@@ -8,6 +8,7 @@
   font-weight: 400;
   font-size: 1rem;
   color: #000;
+  scroll-behavior: smooth;
   /* NAVIGATION */
 }
 
@@ -256,6 +257,8 @@
   -ms-grid-column-align: end;
       justify-self: end;
   text-align: center;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 * .site-wrap .navbar ul a {
@@ -318,6 +321,8 @@
 * .site-wrap .intro {
   max-width: 600px;
   margin: 13% auto;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 * .site-wrap .intro .introBx {
@@ -349,6 +354,8 @@
   max-width: 1200px;
   margin: 0 auto;
   margin: 8% auto;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 * .site-wrap .chat .started_vs_going_conversation {
@@ -420,6 +427,8 @@
   margin: 8% auto;
   text-align: center;
   color: #111;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 * .site-wrap .physicalAppearance h3 {
@@ -446,6 +455,8 @@
   max-width: 1200px;
   margin: 0 auto;
   margin: 8% auto;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 * .site-wrap .gallery h3 {
@@ -487,6 +498,8 @@
   max-width: 1200px;
   margin: 0 auto;
   background: #fefefe;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 * .site-wrap .behindTheScene h3 {
@@ -572,6 +585,8 @@
   background: #faf1f2;
   text-align: center;
   padding: 5% 0;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 * .site-wrap .tomorrow h3 {
@@ -644,6 +659,8 @@
   max-width: 1000px;
   margin: 0 auto;
   padding: 10px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 * .site-wrap .friendThought .friendThoughtBx {
