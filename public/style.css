@@ -312,7 +312,6 @@
 
 * .site-wrap .banner .textBx h3 {
   color: #fff;
-  font-size: 30px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -820,20 +819,41 @@
 }
 
 @media (max-width: 685px) {
+  .navbar.sticky .toggle {
+    margin-left: 190px !important;
+  }
   .site-wrap .toggle {
     margin-left: 180px;
   }
 }
 
 @media (max-width: 452px) {
+  .navbar.sticky .toggle {
+    margin-left: 120px !important;
+  }
   .site-wrap .toggle {
-    margin-left: 80px !important;
+    margin-left: 144px !important;
+  }
+}
+
+@media (max-width: 414px) {
+  .navbar.sticky .toggle {
+    margin-left: 207px !important;
+  }
+}
+
+@media (max-width: 375px) {
+  .navbar.sticky .toggle {
+    margin-left: 120px !important;
   }
 }
 
 @media (max-width: 320px) {
+  .navbar.sticky .toggle {
+    margin-left: 120px !important;
+  }
   .site-wrap .toggle {
-    margin-left: 80px !important;
+    margin-left: 105px !important;
   }
 }
 /*# sourceMappingURL=style.css.map */
