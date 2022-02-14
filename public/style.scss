@@ -526,6 +526,10 @@
       margin: 0 auto;
       padding: 10px;
       transition: 0.5s;
+
+      h3 {
+        @include hThree;
+      }
       .friendThoughtBx {
         display: flex;
         flex-wrap: wrap;
@@ -535,12 +539,15 @@
           width: 400px;
           text-align: left;
           padding: 30px;
-          margin-top: 20px;
+          margin: 20px;
           border-radius: 10px;
           box-shadow: 0 5px 20px rgb(0, 0, 0.1);
+          text-transform: capitalize;
 
           h4 {
+            margin-top: 10px;
             text-align: right;
+            text-transform: uppercase;
           }
         }
       }
